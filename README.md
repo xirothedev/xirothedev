@@ -1,4 +1,4 @@
-[![Discord Presence](https://lanyard.cnrad.dev/api/1216624112139632711?showDisplayName=true&idleMessage=Just%20a%20normal%20developer)](https://discord.com/users/1216624112139632711)
+[![Discord Presence](https://lanyard.cnrad.dev/api/1291013382849167542?showDisplayName=true&idleMessage=Just%20a%20normal%20developer)](https://discord.com/users/1291013382849167542)
 
 # 💻Tech Stack
 

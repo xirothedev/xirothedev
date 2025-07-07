@@ -1,10 +1,16 @@
-<div align="center" style="position: relative; margin-bottom: 100px;">
-  <img src="./background.png" alt="Background" width="100%" style="border-radius: 10px;">
-  
-  <img src="./avatar.jpg" alt="Xiro Avatar" width="150" height="150" style="position: absolute; left: 10%; transform: translateY(-50%); border-radius: 50%; border: 4px solid #3b82f6; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+<img src="./background.png" alt="Background" width="100%" style="border-radius: 10px;">
 
-  <img src="https://readme-typing-svg.vercel.app/?lines=Hello,+I'm+Xiro!+👋;Full+Stack+Developer;Passionate+about+creating+amazing+web+apps;Let's+build+something+awesome+together!&center=false&size=27&color=3b82f6&width=600&height=100" style="position: absolute; left: 25%; top: 105%; transform: translateY(-50%);">
-</div>
+<table>
+  <tr>
+    <td width="160" align="center" valign="top">
+      <img src="./avatar.jpg" alt="Xiro Avatar" width="150" style="border-radius: 50%; border: 4px solid #3b82f6;">
+    </td>
+    <td valign="middle">
+      <span style="font-size:2em; color:#3b82f6;"><b>Hello, I'm Xiro! 👋</b></span><br/>
+      <span style="font-size:1.2em;">Web developer - Self-improvement Enthusiast</span>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
   

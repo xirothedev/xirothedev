@@ -1,21 +1,3 @@
-<img src="./background.png" alt="Background" width="100%" style="border-radius: 10px;">
-
-<table>
-  <tr>
-    <td width="160" align="center" valign="top">
-      <img src="./avatar.jpg" alt="Xiro Avatar" width="150" style="border-radius: 50%; border: 4px solid #3b82f6;">
-    </td>
-    <td valign="middle">
-      <span style="font-size:2em; color:#3b82f6;"><b>Hello, I'm Xiro! 👋</b></span><br/>
-      <span style="font-size:1.2em;">Web developer - Self-improvement Enthusiast</span>
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  
-</div>
-
 <div align="center">
   <a href="https://discord.com/users/1291013382849167542">
     <img src="https://lanyard.cnrad.dev/api/1291013382849167542?showDisplayName=true&idleMessage=Just%20a%20normal%20developer" alt="Discord Presence"/>

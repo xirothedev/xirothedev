@@ -10,7 +10,7 @@
 
 I'm a passionate **Full Stack Developer** who loves turning ideas into reality through code. I specialize in modern web technologies and enjoy building scalable, user-friendly applications.
 
-- 🔭 Currently working on **The Terminal Viet** - A full-stack social media platform
+- 🔭 Currently working on [**The Terminal Viet Nam**](https://github.com/TheTerminalVietNam) - A full-stack social media platform
 - 🌱 Learning **Advanced React Patterns** and **System Design**
 - 💬 Ask me about **Next.js**, **NestJS**, **TypeScript**, and **Modern Web Development**
 - 📫 Reach me at: **lethanhtrung.trungle@gmail.com**

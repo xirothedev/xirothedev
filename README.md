@@ -171,6 +171,34 @@ I'm a **Full Stack Developer** passionate about creating scalable, production-re
     </ul>
   </td>
 </tr>
+<tr>
+  <td width="50%" valign="top">
+    <h3 align="center">📚 Vika</h3>
+    <p align="center">
+      Document intelligence platform built as a Bun + Turborepo monorepo. Focused on namespace-scoped ingestion, structural document extraction, and grounded retrieval over persisted document trees.
+    </p>
+    <p align="center">
+      <a href="https://vika.com.vn">
+        <img src="https://img.shields.io/badge/Preview%20Site-4285F4?style=flat-square&logo=googlechrome&logoColor=white" />
+      </a>
+      <img src="https://img.shields.io/badge/Next.js%2016-black?style=flat-square&logo=next.js" />
+      <img src="https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&logo=react&logoColor=black" />
+      <img src="https://img.shields.io/badge/NestJS%2011-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Prisma%207-2D3748?style=flat-square&logo=prisma" />
+      <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun" />
+      <img src="https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white" />
+    </p>
+    <p align="center"><b>Key Features:</b></p>
+    <ul>
+      <li>🗂️ Namespace-scoped ingest jobs with lifecycle controls</li>
+      <li>📄 Page extraction, TOC detection, and document tree indexing</li>
+      <li>🔎 LLM-assisted retrieval over persisted document structures</li>
+      <li>🧩 Separate web, auth, admin, API, and extractor surfaces</li>
+    </ul>
+  </td>
+  <td width="50%" valign="top">
+  </td>
+</tr>
 </table>
 
 ---

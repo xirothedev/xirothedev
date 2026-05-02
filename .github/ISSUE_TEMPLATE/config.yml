@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Discord
+    url: https://discord.com/users/1291013382849167542
+    about: For quick questions and community chat.
+  - name: 📖 Portfolio
+    url: https://www.xirothedev.site/
+    about: Check my portfolio for project showcases and contact info.
+  - name: 🤝 Contributing Guide
+    url: CONTRIBUTING.md
+    about: Read this before submitting a PR.

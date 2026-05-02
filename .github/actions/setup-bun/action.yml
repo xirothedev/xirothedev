@@ -1,0 +1,44 @@
+name: Setup Bun
+description: Install Bun and optionally install project dependencies.
+
+inputs:
+  bun-version:
+    description: Bun version passed to oven-sh/setup-bun.
+    required: false
+    default: latest
+  working-directory:
+    description: Directory that contains package.json and bun.lock.
+    required: false
+    default: .
+  install:
+    description: Whether to install dependencies after setting up Bun.
+    required: false
+    default: "true"
+  frozen-lockfile:
+    description: Use bun ci for reproducible installs when true.
+    required: false
+    default: "true"
+
+runs:
+  using: composite
+  steps:
+    - name: Install Bun
+      uses: oven-sh/setup-bun@v2
+      with:
+        bun-version: ${{ inputs.bun-version }}
+
+    - name: Print Bun version
+      shell: bash
+      run: bun --version
+
+    - name: Install dependencies
+      if: ${{ inputs.install == 'true' && inputs.frozen-lockfile == 'true' }}
+      shell: bash
+      working-directory: ${{ inputs.working-directory }}
+      run: bun ci
+
+    - name: Install dependencies without frozen lockfile
+      if: ${{ inputs.install == 'true' && inputs.frozen-lockfile != 'true' }}
+      shell: bash
+      working-directory: ${{ inputs.working-directory }}
+      run: bun install

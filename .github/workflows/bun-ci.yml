@@ -1,0 +1,61 @@
+name: Bun CI Template
+
+# Template-safe by default: this workflow only runs when triggered manually.
+# For a real Bun project, replace this block with:
+# on:
+#   push:
+#     branches: [main]
+#   pull_request:
+#     branches: [main]
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bun-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Detect Bun project
+        id: project
+        shell: bash
+        run: |
+          if [ -f package.json ]; then
+            echo "has-package=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has-package=false" >> "$GITHUB_OUTPUT"
+            echo "No package.json found; skipping Bun CI template steps."
+          fi
+
+      - name: Setup Bun
+        if: steps.project.outputs.has-package == 'true'
+        uses: ./.github/actions/setup-bun
+        with:
+          bun-version: latest
+          frozen-lockfile: "true"
+
+      - name: Lint
+        if: steps.project.outputs.has-package == 'true'
+        run: bun run lint
+
+      - name: Typecheck
+        if: steps.project.outputs.has-package == 'true'
+        run: bun run typecheck
+
+      - name: Test
+        if: steps.project.outputs.has-package == 'true'
+        run: bun test
+
+      - name: Build
+        if: steps.project.outputs.has-package == 'true'
+        run: bun run build

@@ -76,7 +76,7 @@ Building production systems since 2022: **700+ PRs merged across three live plat
     <h3 align="center">🛒 WebDev Studios</h3>
     <p align="center">
       <a href="https://github.com/xirothedev/webdevstudios"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github" /></a>
-      <img src="https://img.shields.io/badge/CQRS-E0234E?style=for-the-badge?style=flat-square&logo=nestjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/CQRS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
     </p>
     <ul>
       <li>E-commerce platform, open-source reference implementation</li>

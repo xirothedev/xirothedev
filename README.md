@@ -64,7 +64,6 @@ Building production systems since 2022: **700+ PRs merged across three live plat
     <h3 align="center">📦 Orderly</h3>
     <p align="center">
       <a href="https://orderly.social/"><img src="https://img.shields.io/badge/Live_Demo-4285F4?style=flat-square&logo=googlechrome&logoColor=white" /></a>
-      <a href="https://github.com/xirothedev/orderly-workflow-order-management"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github" /></a>
     </p>
     <ul>
       <li>Order management system with workflow automation</li>
